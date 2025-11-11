@@ -116,16 +116,17 @@ body {
     color: #667eea;
 }
 
+
+
 @media (max-width: 768px) {
     .container h1 {
         font-size: 2em;
     }
 }
 
-.card-header h2 {
+    .card-header h2 {
         font-size: 1.5em;
     }
-    
     .tecnologias li {
         display: block;
         margin: 5px 0;
