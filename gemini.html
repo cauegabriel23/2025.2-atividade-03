@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Gemini Clone</title>
+    <link rel="stylesheet" href="gemini.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="menu-btn">☰</div>
+        <div class="new-chat">
+            <span>+</span> Novo chat
+        </div>
+
+        <div class="recent-title">Recentes</div>
+        <div class="history-item">Criar código HTML...</div>
+        <div class="history-item">Receita de bolo de...</div>
+        <div class="history-item">Explique a teoria da...</div>
+    </aside>
+
+    <main class="main-content">
+        <header class="header">
+            <span>Gemini</span>
+            <div class="user-avatar"></div>
+        </header>
+
+        <div class="chat-container">
+            <div class="welcome-message">
+                <div class="greeting">Olá, Humano</div>
+                <div class="sub-greeting">Como posso ajudar hoje?</div>
+            </div>
+            
+            <div class="suggestions-grid">
+                <div class="suggestion-card">Criar uma imagem</div>
+                <div class="suggestion-card">Planejar viagem</div>
+                <div class="suggestion-card">Resumir texto</div>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <div class="input-box">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M12 5v14m-7-7h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                
+                <input type="text" placeholder="Digite uma instrução aqui">
+                
+                <svg class="icon" viewBox="0 0 24 24"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" stroke="currentColor"/><path d="M19 10v2a7 7 0 0 1-14 0v-2" stroke="currentColor" fill="none"/></svg>
+                
+                <svg class="icon send-icon" viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            </div>
+            <div class="disclaimer">
+                O Gemini pode apresentar informações imprecisas, inclusive sobre pessoas.
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
